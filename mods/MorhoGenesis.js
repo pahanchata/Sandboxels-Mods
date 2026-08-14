@@ -4,7 +4,7 @@
 elements.tissue = {
     color: "#7f8c8d",
     behavior: behaviors.WALL,
-    category: "Morphogenesis",
+    category: "morphogenesis",
     state: "solid",
     density: 1500,
     // Если рядом есть активатор, ткань превращается в живую структуру
@@ -17,7 +17,7 @@ elements.tissue = {
 elements.grown_tissue = {
     color: "#2ecc71",
     behavior: behaviors.WALL,
-    category: "Morphogenesis",
+    category: "morphogenesis",
     state: "solid",
     density: 2000,
 };
@@ -30,7 +30,7 @@ elements.activator = {
         "M2|DL|M1",
         "XX|M1|XX",
     ],
-    category: "Morphogenesis",
+    category: "morphogenesis",
     state: "liquid",
     density: 500,
     tick: function(pixel) {
